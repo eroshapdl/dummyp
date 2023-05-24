@@ -1,5 +1,6 @@
-from dummy import add_numbers, subtract_numbers, multiply_numbers, divide_numbers
-from dummy import concatenate_strings, capitalize_string, reverse_string
+"""
+from main.dummy import add_numbers, subtract_numbers, multiply_numbers, divide_numbers
+from  main.dummy import concatenate_strings, capitalize_string, reverse_string
 
 
 def test_add_numbers():
@@ -30,4 +31,13 @@ def test_capitalize_string():
 
 
 def test_reverse_string():
-    assert reverse_string("hehe") == "wrong"
+    assert reverse_string("hehe") == "wrong" 
+
+    """
+from main.dummy import add_numbers, subtract_numbers, multiply_numbers, divide_numbers
+
+#testing math functions
+print(add_numbers(2, 3))
+print(subtract_numbers(8, 4))
+print(multiply_numbers(7, 2))
+print(divide_numbers(20, 10))
