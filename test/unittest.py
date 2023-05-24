@@ -1,6 +1,6 @@
 import unittest
-from dummy import add_numbers, subtract_numbers, multiply_numbers, divide_numbers
-from dummy import concatenate_strings, capitalize_string, reverse_string
+from main.dummy import add_numbers, subtract_numbers, multiply_numbers, divide_numbers
+from main.dummy import concatenate_strings, capitalize_string, reverse_string
 
 
 class MathFunctionsTestCase(unittest.TestCase):
